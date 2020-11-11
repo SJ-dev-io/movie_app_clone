@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Potato() {
+function Movie() {
     return (
         <h3>
             I love potato
@@ -8,4 +8,4 @@ function Potato() {
     )
 }
 
-export default Potato
+export default Movie
