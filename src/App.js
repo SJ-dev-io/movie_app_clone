@@ -1,15 +1,5 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 
-function Food({name, picture, rating}){
-  return (
-    <div>
-      <h1>I like {name}</h1>
-      <h4>{rating}/5.0</h4>
-      <img src={picture} alt={name}/>
-    </div>
-  )
-}
 
 const foodLike = [
   {
